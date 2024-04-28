@@ -1,0 +1,132 @@
+body{
+  margin:0;width:100%;
+  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.bg-light{
+  background-color:#fff!important;
+}
+.navbar{
+  height:100%;
+  padding:0rem 0rem 0rem 3.4rem;
+  font-size:13px;
+  
+  letter-spacing: 0;
+}
+.nav-item{
+  padding-left:6px;
+  padding-right: 15px;
+}
+.nav-item a {
+color:#262626!important;
+}
+
+.microsoft-img{
+  overflow-x: visible;
+  margin-top: -0.7rem!important;
+    max-width: none;
+    width: 108px!important;
+}
+.navbar-brand{
+  padding:12px 6px 13px 11px;
+            float: left;
+            height: 100%;
+            margin-top: 1px;
+            width: 137px;
+            outline-offset: -2px;
+}
+.dark-line{
+  width: 2px;
+            background-color: black;
+            border: 1px solid black;
+            height: 24px;
+            margin-left: -8px;
+            margin-right: 8px;
+}
+.nav-right{
+ margin-left:0;
+}
+
+.thin-border-svg  {
+  fill:black;
+  stroke: #fff!important;
+  stroke-width:2.5%!important;
+}
+.icon-box {
+  display: inline-block;
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border: 1px solid black; /* Example border */
+  text-align: center; /* Center the icon */
+  line-height: 50px; /* Center the icon vertically */
+}
+/* Show submenu on hover */
+/* Show submenu on hover */
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu > li {
+  position: relative;
+}
+
+.menu li a {
+  display: block;
+  /* padding: 10px; */
+  text-decoration: none;
+  color: black;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 2;
+  background-color: #f2f2f2;
+  font-size:14px;
+  padding: 20px;
+  margin-left: -6px;
+    border-radius: 0;
+    border:0;
+    margin-top:1px;
+  /* Position the submenu to the right of the parent */
+}
+
+.menu li.active > .submenu {
+  display: block; /* Submenu opens on click */
+  
+}
+.menu li.active{
+  background-color: #f2f2f2; /* Submenu opens on click */
+  
+  border: 1px dashed green;
+}
+.submenu > li {
+  position: relative;
+}
+.submenu:hover,
+
+.submenu li:hover > .sub-submenu {
+  display: block; /* Sub-submenu opens on hover */
+  height:300px;
+  border-right:  0px;
+}
+
+.sub-submenu {
+  display: none;
+  position: absolute;
+  font-size:14px;
+  padding: 20px;
+margin-top: -114px;
+text-align: center;
+  left: 100%; 
+  /* Position the sub-submenu to the right of the parent submenu */
+  background-color: #e6e6e6;
+  
+}
+.nav-last{
+  margin-top: 0.3rem
+}
+
+
+
