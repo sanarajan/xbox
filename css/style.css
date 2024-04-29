@@ -724,6 +724,8 @@ padding:.2rem 0rem .2rem .2rem;
   height: 41.48vw;
         background-size: cover;
         margin: 2px 0;
+        margin-left: 2px!important;
+        margin-right: -4px!important;
 }
 .fullImgbannercap{
   position: absolute;
