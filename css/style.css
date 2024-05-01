@@ -836,6 +836,19 @@ flex-direction: row;
 }
 .footerFlex a{
   font-size: 11px;;
+  cursor: pointer;
+}
+.secondFlex{
+  cursor: pointer;
+}
+.footerFlex a:not(:first-child):hover {
+  text-decoration: underline;
+  color:black;
+}
+.secondFlex a:hover,.lastflex a:hover{
+  text-decoration: underline;
+  color:black;
+
 }
 .secondFlex a{
   font-size: 11px;;
@@ -852,4 +865,10 @@ flex-direction: row;
 .fa-angle-down{
   top: 37%!important;
   font-size: 10px!important;
+}
+.footp:hover{
+
+}
+.footp{
+  cursor:pointer;
 }
